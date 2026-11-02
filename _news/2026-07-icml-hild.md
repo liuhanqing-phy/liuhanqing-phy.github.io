@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-We presented [our work](https://arxiv.org/abs/2605.06152) at the **ICML HiLD Workshop**.
+We presented [our work](https://icml.cc/virtual/2026/72427) at the [ICML HiLD Workshop](https://icml.cc/virtual/2026/workshop/54077) as spotlight!
