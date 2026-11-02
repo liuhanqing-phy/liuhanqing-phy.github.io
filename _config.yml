@@ -3,13 +3,14 @@
 # -----------------------------------------------------------------------------
 
 title: Liu Hanqing
+seo_title: Liu Hanqing (Hanqing Liu)
 first_name: Hanqing
 middle_name:
 last_name: Liu
 contact_note: >
   On learning, physics, and the interesting space in between.
 description: >
-  Liu Hanqing — deep learning theory, generative models, and statistical physics.
+  Liu Hanqing (Hanqing Liu, 刘汉青) researches deep learning theory, generative models, and statistical physics.
 footer_text: >
   Built with <a href="https://jekyllrb.com/">Jekyll</a> and
   <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
