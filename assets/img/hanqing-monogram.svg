@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="portrait-art" viewBox="0 0 300 300" role="img" aria-label="HL monogram with orbital curves">
+            <style>.portrait-initials { font-family:Georgia,serif;font-size:78px;letter-spacing:-6px;fill:#e9e6df; }</style><rect width="300" height="300" fill="#202320"/><defs><pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#ccaf83" stroke-width=".4" opacity=".15"/></pattern><radialGradient id="glow"><stop stop-color="#ccaf83" stop-opacity=".12"/><stop offset="1" stop-color="#ccaf83" stop-opacity="0"/></radialGradient></defs>
+            <rect width="300" height="300" fill="url(#grid)"/><circle cx="150" cy="142" r="136" fill="url(#glow)"/>
+            <g fill="none" stroke="#ccaf83" stroke-width=".7"><circle cx="150" cy="142" r="100" opacity=".25"/><circle cx="150" cy="142" r="78" opacity=".12"/><ellipse cx="150" cy="142" rx="127" ry="46" transform="rotate(-35 150 142)" opacity=".52"/><ellipse cx="150" cy="142" rx="127" ry="46" transform="rotate(35 150 142)" opacity=".25"/><path d="M150 27v15m0 200v15M35 142h15m200 0h15" opacity=".5"/></g>
+            <circle cx="245" cy="70" r="3.4" fill="#ccaf83"/><circle cx="55" cy="214" r="2.4" fill="#ccaf83" opacity=".65"/>
+            <text class="portrait-initials" x="148" y="166" text-anchor="middle">HL</text><text x="150" y="194" text-anchor="middle" fill="#ccaf83" font-size="6" letter-spacing="4">HANQING LIU</text>
+          </svg>

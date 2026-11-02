@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+# Prefer the compatible Homebrew tools on this Mac; other platforms use PATH.
+for tool_dir in /opt/homebrew/opt/node@22/bin /opt/homebrew/opt/ruby@3.3/bin; do
+  if [[ -d "$tool_dir" ]]; then export PATH="$tool_dir:$PATH"; fi
+done
+export BUNDLE_PATH=vendor/bundle
+export BUNDLE_USER_HOME=.bundle/user
+export BUNDLE_APP_CONFIG=.bundle
+
+action="${1:-serve}"
+if [[ $# -gt 0 ]]; then shift; fi
+case "$action" in
+  setup) bundle install; npm ci --cache .npm-cache ;;
+  build) bundle exec jekyll build "$@" ;;
+  serve) bundle exec jekyll serve --host 127.0.0.1 --port 4000 "$@" ;;
+  audit) bundle exec al-folio upgrade audit "$@"; bundle exec al-folio upgrade overrides audit ;;
+  check) npm run lint:prettier ;;
+  *) echo "Usage: bin/site [setup|build|serve|audit|check]" >&2; exit 2 ;;
+esac
