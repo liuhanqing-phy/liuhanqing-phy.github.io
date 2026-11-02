@@ -1,11 +1,11 @@
 - id: learning-dynamics
-  title: Learning mechanics
+  title: Learning Mechanics
   body: |
     I study how **optimization dynamics** shape what neural networks learn. I am interested in how training time, model scale, and numerical precision influence learning trajectories and generalization. My aim is to develop mechanistic explanations that make testable predictions, connecting mathematical analysis with controlled training experiments.
 
     In our work on [Slingshot loss spikes](https://arxiv.org/abs/2605.06152), we identify a mechanism in which finite-precision errors break the zero-sum constraint of cross-entropy gradients. The resulting drift creates a positive feedback loop between classifier and feature means, which we call **Numerical Feature Inflation**. This explains rapid norm growth and the onset of loss spikes in the settings studied, while also showing that numerical drift can drive parameter growth without visible spikes. This work motivates my broader interest in how the numerical implementation of a learning rule changes its dynamics.
 - id: generative-models
-  title: Generative models
+  title: Generative Models
   body: |
     My current focus is on the theoretical properties of **deep generative models**, especially **generalization and memorization in diffusion models**. I want to understand how denoisers learn reusable statistical structure from finite data, and how this supports samples that are both novel and faithful to the underlying distribution. I am particularly interested in the roles of architectural inductive bias, noise level, and the local and multiscale structure of natural images.
 
