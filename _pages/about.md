@@ -35,7 +35,7 @@ About my name: **Liu** is my surname, and **Hanqing** is my given name. I prefer
 
 In my free time, I enjoy traveling, cycling, reading, live shows, anime, and video games.
 
-**I plan to apply for Fall 2028 PhD programs and welcome research collaborations** — please feel free to [reach out](mailto:{{ site.data.socials.email }}).
+**I am seeking summer research opportunities for 2027 and plan to apply for Fall 2028 PhD programs. I also welcome research collaborations** — please feel free to [reach out](mailto:{{ site.data.socials.email }}).
 
 <div class="about-links">
   <div class="about-socials" role="group" aria-label="Social links">{% social_links %}</div>
